@@ -32,7 +32,7 @@ public class TriangleWebTest {
         c.sendKeys("10");
         c.submit();
         File src= ((TakesScreenshot)driver). getScreenshotAs(OutputType. FILE);
-    	FileUtils. copyFile(src, new File("C:\\Users\\LAB\\Downloads\\triangle-example-master\\triangle-example-master\\test01.png"));
+    	FileUtils. copyFile(src, new File("test01.png"));
     	String source = driver.getPageSource();
         Assert.assertTrue(source.contains("EQUILATERAL"));
     }
@@ -47,7 +47,7 @@ public class TriangleWebTest {
         c.sendKeys("15");
         c.submit();
         File src= ((TakesScreenshot)driver). getScreenshotAs(OutputType. FILE);
-    	FileUtils. copyFile(src, new File("C:\\Users\\LAB\\Downloads\\triangle-example-master\\triangle-example-master\\test02.png"));
+    	FileUtils. copyFile(src, new File("test02.png"));
     	String source = driver.getPageSource();
         Assert.assertTrue(source.contains("ISOSCELES"));
     }
@@ -62,7 +62,7 @@ public class TriangleWebTest {
         c.sendKeys("5");
         c.submit();
         File src= ((TakesScreenshot)driver). getScreenshotAs(OutputType. FILE);
-    	FileUtils. copyFile(src, new File("C:\\Users\\LAB\\Downloads\\triangle-example-master\\triangle-example-master\\test03.png"));
+    	FileUtils. copyFile(src, new File("test03.png"));
     	String source = driver.getPageSource();
         Assert.assertTrue(source.contains("SCALENE"));
     }
@@ -77,7 +77,7 @@ public class TriangleWebTest {
         c.sendKeys("0");
         c.submit();
         File src= ((TakesScreenshot)driver). getScreenshotAs(OutputType. FILE);
-    	FileUtils. copyFile(src, new File("C:\\Users\\LAB\\Downloads\\triangle-example-master\\triangle-example-master\\test04.png"));
+    	FileUtils. copyFile(src, new File("test04.png"));
     	String source = driver.getPageSource();
         Assert.assertTrue(source.contains("INVALID"));
     }
