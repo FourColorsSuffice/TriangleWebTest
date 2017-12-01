@@ -251,10 +251,13 @@ public class TriangleWebTest {
     public void test09() throws Exception{
         driver.navigate().to("http://54.169.240.93:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
+        a.clear();
         a.sendKeys("1.5");
         WebElement b = driver.findElement(By.name("b"));
+        b.clear();
         b.sendKeys("1.5");
         WebElement c = driver.findElement(By.name("c"));
+        c.clear();
         c.sendKeys("2.5");
         c.submit();
         File src= ((TakesScreenshot)driver). getScreenshotAs(OutputType. FILE);
@@ -271,6 +274,7 @@ public class TriangleWebTest {
         WebElement b = driver.findElement(By.name("b"));
         b.sendKeys("1");
         WebElement c = driver.findElement(By.name("c"));
+        c.clear();
         c.sendKeys("");
         c.submit();
         File src= ((TakesScreenshot)driver). getScreenshotAs(OutputType. FILE);
