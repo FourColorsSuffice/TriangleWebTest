@@ -1,5 +1,10 @@
 package com.example;
 
+//This version for TriangleWebTest works with geckodriver-v0.23.0-macos
+//downloaded from https://github.com/mozilla/geckodriver/releases/download/v0.23.0/geckodriver-v0.23.0-macos.tar.gz
+//to test firefox 63.0.3
+
+
 import org.apache.commons.io.FileUtils;
 import org.junit.*;
 import org.openqa.selenium.*;

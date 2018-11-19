@@ -3,4 +3,5 @@ trianglewebtest.iml
 .idea
 .DS_Store
 *geckodriver*
+*driver*
 *.png
