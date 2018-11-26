@@ -30,7 +30,7 @@ public class TriangleWebTest {
 
     @Test
     public void test01() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("10");
         WebElement b = driver.findElement(By.name("b"));
@@ -48,7 +48,7 @@ public class TriangleWebTest {
     
     @Test
     public void test02() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("10");
         WebElement b = driver.findElement(By.name("b"));
@@ -65,7 +65,7 @@ public class TriangleWebTest {
 
      @Test
     public void test03() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("3");
         WebElement b = driver.findElement(By.name("b"));
@@ -82,7 +82,7 @@ public class TriangleWebTest {
 
      @Test
     public void test02a() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("10");
         WebElement b = driver.findElement(By.name("b"));
@@ -99,7 +99,7 @@ public class TriangleWebTest {
 
      @Test
     public void test02b() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("15");
         WebElement b = driver.findElement(By.name("b"));
@@ -116,7 +116,7 @@ public class TriangleWebTest {
 
     @Test
     public void test04() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("0");
         WebElement b = driver.findElement(By.name("b"));
@@ -133,7 +133,7 @@ public class TriangleWebTest {
 
     @Test
     public void test05() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("0");
         WebElement b = driver.findElement(By.name("b"));
@@ -150,7 +150,7 @@ public class TriangleWebTest {
 
     @Test
     public void test06() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.clear();
         a.sendKeys("-1");
@@ -168,7 +168,7 @@ public class TriangleWebTest {
 
         @Test
     public void test07() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("3");
         WebElement b = driver.findElement(By.name("b"));
@@ -186,7 +186,7 @@ public class TriangleWebTest {
 
         @Test
     public void test07a() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("3");
         WebElement b = driver.findElement(By.name("b"));
@@ -204,7 +204,7 @@ public class TriangleWebTest {
 
         @Test
     public void test07b() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("7");
         WebElement b = driver.findElement(By.name("b"));
@@ -221,7 +221,7 @@ public class TriangleWebTest {
 
     @Test
     public void test08() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("1");
         WebElement b = driver.findElement(By.name("b"));
@@ -238,7 +238,7 @@ public class TriangleWebTest {
 
     @Test
     public void test08a() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("1");
         WebElement b = driver.findElement(By.name("b"));
@@ -255,7 +255,7 @@ public class TriangleWebTest {
 
     @Test
     public void test08b() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("4");
         WebElement b = driver.findElement(By.name("b"));
@@ -272,7 +272,7 @@ public class TriangleWebTest {
 
     @Test
     public void test09() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.clear();
         a.sendKeys("1.5");
@@ -292,7 +292,7 @@ public class TriangleWebTest {
 
     @Test
     public void test010() throws Exception{
-        driver.navigate().to("http://3.16.181.232:8080/triangleweb/");
+        driver.navigate().to("http://localhost:8080/triangleweb/");
         WebElement a = driver.findElement(By.name("a"));
         a.sendKeys("1");
         WebElement b = driver.findElement(By.name("b"));
